@@ -1,0 +1,143 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#titulo {
+    color: #508f68;
+    text-shadow: 1px 1px #000;
+    position: relative;
+    font-family: Georgia;
+    text-align: center;
+    font-size: 2rem;
+    bottom: 2.5rem;
+}
+
+.formConteiner {
+    display: flex;
+    position: relative;
+    width: 25rem;
+    height: 28rem;
+    padding: 5rem;
+    justify-content: center;
+    border: 0.15rem solid #508f68;
+    border-radius: 1.3rem;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 8px 1px #0c3118;
+}
+
+#formBloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputs {
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    width: 90%;
+    padding: 0 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px 1px #508f68;
+    background: none;
+}
+
+i {
+    position: relative;
+    top: 1.9rem;
+    right: 1.8rem;
+    color: #42855bc7;
+    vertical-align: text-bottom;
+}
+
+#botaoSubmit {
+    font-size: 1.5rem;
+    font-family: Cambria;
+    border: none;
+    color: #116D6E;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px 1px #508f68;
+    height: 2.5rem;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5rem;
+    background: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-family: Georgia;
+    justify-content: center;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    color: #508f68;
+    text-shadow: 0 1px 1px #000;
+}
+
+p>a {
+    padding-top: 0.5rem;
+    color: #508f68;
+    text-shadow: 0 1px 1px #000;
+    margin: 0.5rem;
+}
+
+#esqueceuSenha {
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: #508f68;
+    text-shadow: 0 1px 1px #000;
+}
+
+#botaoSubmit:hover {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: #508f68;
+    height: 3.5rem;
+    transition: 0.5s;
+}
+
+.inputs:hover {
+    height: 3.5rem;
+    transition: 0.5s;
+}
+
+p>a:hover {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    justify-content: center;
+    background-color: #508f68d5;
+    box-shadow: 0 0 4px 1px #508f68;
+    transition: 0.5s;
+    border-radius: 0.9rem;
+    width: 52%;
+    height: 55%;
+    margin-left: 1.2rem;
+}
+
+#esqueceuSenha:hover {
+    align-self: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: #508f68d5;
+    box-shadow: 0 0 4px 1px #508f68;
+    transition: 0.5s;
+    border-radius: 0.9rem;
+    width: 60%;
+}
